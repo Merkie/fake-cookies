@@ -8,8 +8,13 @@ Fake Cookies is a Python library that allows users to generate custom random str
 **Generating random strings**
 
 To generate random strings, we can use the generate method. Here's an example:
+
 ```Python
-generate(self, length=None, cbank=None, amount=None)
+generate(self, length=10, cbank="a0", amount=3)
+
+>>> ['3di7vc8jfs', 'dw77v80uhh', 'zx4fb7wmdq']
 ```
+
+The cbank is the variable that determines the characters will be in your string. "A0" will be capital letters and numbers, "a0" will be lowercase and numbers, "a" will be just lowercase, "A" will be just capital, and "0" will be just numbers.
 
 **If you're seeing this we're still in development so there may be missing information from this README file or the Python files in this repo. Use with caution!**
