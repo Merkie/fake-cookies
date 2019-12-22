@@ -32,7 +32,7 @@ f= fcs()
 
 f.genpattern(cbank="a0", splitchar="-", pattern=[3,3,4,5], amount=1)
 
->>> ibn-po1-qf9d-9yts3
+>>> 'ibn-po1-qf9d-9yts3'
 ```
 
 The splitchar can be any string you'd like, this is what goes inbetween the different blocks of characters. The pattern is always a list, this is what sets the rule of the pattern.
